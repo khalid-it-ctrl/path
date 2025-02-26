@@ -1,99 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <meta charset="UTF-8">
-    <title>PATH OF TALENT</title>
-    <link rel="stylesheet" href="rate.css">
-    <link rel="icon" href="TEAM PNG 2.png">
-    
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Samir - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #0073e6;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .header p {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #555;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .section ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #0073e6;
+        }
+        .contact-info {
+            background: #f9f9f9;
+            padding: 15px;
+            border-left: 4px solid #0073e6;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .skills ul {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+    </style>
 </head>
 <body>
-
-   
-
-   
-   
-
-   
-    <div class="container-box">
-        <h3 class="fares">Student Login</h3>
-        
-        <input type="text" id="username" placeholder="Username">
-        <input type="password" id="password" placeholder="Password">
-        <button class="btn-custom" onclick="login()" >Login</button>
-    </div>
-
-    <div id="student-info" class="id-card">
-        <h3>STUDENT ID CARD</h3>
-        <div>
-        <img id="student-img" src="fares.jpg" alt="Student Image">
+    <div class="container">
+        <div class="header">
+            <h1>Khalid Samir</h1>
+            <pre>
+<h3># Data Entry
+# Programmer
+    <h3>
+            </pre>
         </div>
-        <h4 id="student-name"></h4>
-        
-        <p><strong>ID:</strong> <span id="student-id"></span></p>
-        <p><strong>Bonus:</strong> <span id="student-bonus"></span></p>
-        <p><strong>Minus:</strong> <span id="student-minus"></span></p>
-        <div>
-            <img src="TEAM 2.png" alt="">
+
+        <div class="section">
+            <h2>Profile</h2>
+            <p>I'm Khaled Samir, an IT student at Borg El Arab Technological University. Passionate about technology and programming, I've worked as a Warehouse Clerk, Data Entry Operator (ASCON), Health and Safety Engineer, and Programmer. Skilled in Microsoft Office (Word, Excel, PowerPoint, Access), I thrive under pressure and seek growth opportunities.</p>
         </div>
-        <p class="footer-text">Thanks for your time</p>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Badawi Group - Occupational Health and Safety Officer</h3>
+                    <p>Jan 2021 - 2023</p>
+                    <p>Responsible for occupational health and safety within the Hassan Allam project at Badawi Sons Company.</p>
+                </li>
+                <li>
+                    <h3>Family Contracting - Storekeeper/Data Entry</h3>
+                    <p>2023 - 2025</p>
+                    <p>Worked as a storekeeper and data entry operator using the ASCON system to manage store data, purchases, imports, and exports.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p>Email: khlidsmir3@gmail.com</p>
+            <p>Phone: 01200233812 - 01062249698</p>
+            <p>Address: Burj Al Arab City, Alexandria</p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Management Skills</li>
+                <li>Data Entry</li>
+                <li>Programming in C</li>
+                <li>Programming in Python</li>
+                <li>Work Under Pressure</li>
+                <li>Critical Thinking</li>
+                <li>Communication Skills</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
     </div>
-
-   
-
-<script>
-const students = {
-    "abdullah.as@pot": { id: "2420753", name: "Abdullah Samir", bonus: 6, minus: 0, img: "abd.jpg" },
-    "hanin.ab@pot": { id: "2420394", name: "Hanin Abdelkarim", bonus: 6, minus: 0, img: "haneeb.jpg" },
-    "soma.fa@pot": { id: "2420563", name: "Soma Fahmy", bonus: 4, minus: 0, img: "soma.jpg" },
-    "hamada.ga@pot": { id: "2420384", name: "Hamada Gaber", bonus: 4, minus: 0, img: "hama.jpg" },
-    "mohamed.ab@pot": { id: "2420990", name: "Mohamed Ayman abo zaid", bonus: 8, minus: 0, img: "ayman.jpg" },
-    "donia.ah@pot": { id: "2420414", name: "Donia Ahmed", bonus: 4, minus: 0, img: "donia.jpg" },
-    "habiba.wa@pot": { id: "2420366", name: "Habiba Walid", bonus: 4, minus: 0, img: "habeba atta.jpg" },
-    "abdelrahman.at@pot": { id: "2420713", name: "Abdelrahman Atef", bonus: 2, minus: 0, img: "zoka.jpg" },
-    "moaz.mo@pot": { id: "2421221", name: "Moaz Mohamed", bonus: 4, minus: 0, img: "moaz.jpg" },
-    "rawan.ta@pot": { id: "2420464", name: "Rawan Tarek", bonus: 4, minus: 0, img: "rewan.jpg" },
-    "mazin.mo@pot": { id: "2420947", name: "Mazin Mohamed", bonus: 8, minus: 0, img: "mazen.jpg" },
-    "hosni.mo@pot": { id: "2420380", name: "Hosni Mohamed", bonus: 8, minus: 0, img: "hosni.jpg" },
-    "fares.ma@pot": { id: "2420879", name: "Fares Mahmoud", bonus: 10, minus: 0, img: "fares.jpg" },
-    "doaa.kh@pot": { id: "2420410", name: "Doaa Khamees", bonus: 4, minus: 0, img: "doaa.jpg" },
-    "khalid@pot": { id: "2420403", name: "Khalid Samir", bonus: 4, minus: 0, img: "khaledsamir.jpg" },
-    "hanin.ha@pot": { id: "2420399", name: "Hanin Hashim", bonus: 0, minus: -2, img: "hash.jpg" },
-    "hamdy.ah@pot": { id: "2420385", name: "Hamdy Ashraf", bonus: 4, minus: 0, img: "hamdy ashraf.jpg" },
-    "rizk.re@pot": { id: "2420446", name: "Rizk Reda", bonus: 4, minus: 0, img: "reezk.jpg" },
-    "islam.as@pot": { id: "2420115", name: "Islam Saeed", bonus: 4, minus: 0, img: "eslaam.jpg" },
-    "sief.al@pot": { id: "2420568", name: "Sief Alaa", bonus: 4, minus: 0, img: "saif.jpg" },
-    "mohamed.re@pot": { id: "2421025", name: "Mohamed Reda", bonus: 4, minus: 0, img: "ssss.jpg" },
-    "mohamed.ay@pot": { id: "2420981", name: "Mohamed Aymen", bonus: 0, minus: -2, img: "aym.jpg" },
-    "abdelrahman.al@pot": { id: "2420725", name: "Abdelrahman Allam", bonus: 2, minus: 0, img: "allam.jpg" },
-    "abdullah.ho@pot": { id: "2421537", name: "Abdullah Hosni", bonus: 0, minus: -2, img: "hammam.jpg" },
-    "hanin.wa@pot": { id: "2420400", name: "Hanin Walid", bonus: 4, minus: 0, img: "hanen atta.jpg" },
-    "youssef.mo@pot": { id: "2421511", name: "Youssef Mohamed", bonus: 2, minus: 0, img: "aaaa.jpg" },
-    "ahmed.mo@pot": { id: "2420224", name: "Ahmed Mohamed", bonus: 4, minus: 0, img: "ali.jpg" },
-    "omar.ta@pot": { id: "2420821", name: "Omar Tamer", bonus: 2, minus: 0, img: "omar tamer.jpg" },
-    "rahma.ah@pot": { id: "2420431", name: "Rahma Ahmed", bonus: 4, minus: 0, img: "rahma.jpg" },
-    "rawy.mo@pot": { id: "2420427", name: "Rawy Mohamed", bonus: 2, minus: 0, img: "rawy.jpg" }
-};
-
-function login() {
-    const username = document.getElementById("username").value.toLowerCase().trim();
-    const password = document.getElementById("password").value.trim();
-
-    if (students[username] && students[username].id === password) {
-        document.querySelector(".container-box").style.display = "none";
-        document.getElementById("student-info").style.display = "block";
-        document.getElementById("student-name").innerText = students[username].name;
-        document.getElementById("student-id").innerText = students[username].id;
-        document.getElementById("student-bonus").innerText = students[username].bonus;
-        document.getElementById("student-minus").innerText = students[username].minus;
-        document.getElementById("student-img").src = students[username].img;
-    } else {
-        alert("Invalid Username or Password!");
-    }
-}
-</script>
-
 </body>
 </html>
